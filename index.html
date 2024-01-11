@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fresh Groceries for Daily Needs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1><span style="color: gold;">Fresh</span> & Tasty Groceries</h1>
+    <p>Delivered with a smile, straight to your door.</p>
+  </header>
+  <main>
+    <div class="column-wrapper">
+      <div class="column fruits">
+        <h2>Fruits</h2>
+        <ul>
+          <li><a href="#">Apples</a></li>
+          <li><a href="#">Bananas</a></li>
+          <li><a href="#">Oranges</a></li>
+          <li><a href="#">Grapes</a></li>
+          <li><a href="#">Strawberries</a></li>
+        </ul>
+      </div>
+      <div class="column vegetables">
+        <h2>Vegetables</h2>
+        <ul>
+          <li><a href="#">Tomatoes</a></li>
+          <li><a href="#">Onions</a></li>
+          <li><a href="#">Potatoes</a></li>
+          <li><a href="#">Carrots</a></li>
+          <li><a href="#">Cucumbers</a></li>
+        </ul>
+      </div>
+      <div class="column dairy">
+        <h2>Milk Products</h2>
+        <ul>
+          <li><a href="#">Milk</a></li>
+          <li><a href="#">Yogurt</a></li>
+          <li><a href="#">Cheese</a></li>
+          <li><a href="#">Butter</a></li>
+          <li><a href="#">Ice Cream</a></li>
+        </ul>
+      </div>
+      <div class="column drinks">
+        <h2>Cool Drinks</h2>
+        <ul>
+          <li><a href="#">Water</a></li>
+          <li><a href="#">Juice</a></li>
+          <li><a href="#">Soda</a></li>
+          <li><a href="#">Tea</a></li>
+          <li><a href="#">Coffee</a></li>
+        </ul>
+      </div>
+      <div class="column chocolates">
+        <h2>Chocolates</h2>
+        <ul>
+          <li><a href="#">Bars</a></li>
+          <li><a href="#">Truffles</a></li>
+          <li><a href="#">Candy</a></li>
+          <li><a href="#">Baking Chocolate</a></li>
+          <li><a href="#">Gift Boxes</a></li>
+        </ul>
+      </div>
+    </div>
+    <form action="/order" method="post">
+      <h2>Order Now!</h2>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="phone" id="phone" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Delivery Address:</label>
+        <textarea name="address" id="address" required></textarea>
+      </div>
+      <button type="submit">Place Your Order</button>
+    </form>
+  </main>
+  <footer>
+    <p>&copy; Copyright 2024 Fresh Groceries. All rights reserved.</p>
+  </footer>
+  
+</body>
+</html>
